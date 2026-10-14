@@ -1,0 +1,262 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+p {
+    color: #a19696;
+}
+
+img {
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: black;
+}
+
+.logo {
+    font-weight: bolder;
+}
+
+.menu {
+    font-weight: 900;
+}
+
+.gray:hover {
+    color: gray !important;
+}
+
+.hero1 {
+    background-color: #B8B0B0;
+    height: 650px;
+}
+
+.hero2 {
+    background-image: url(../Images/Background/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+}
+
+.co {
+    color: #a19696;
+}
+
+.hello {
+    color: #D4D0D0;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+.contact-hero {
+    background-color: #a19696;
+}
+
+.lg-nav:hover {
+    color: #a19696 !important;
+    ;
+}
+
+.consultation input,
+select {
+    width: 100%;
+    border: 2px solid #a19696;
+}
+
+.consultation-btn {
+    border: 2px solid #a19696;
+    background-color: #a19696;
+    color: white;
+    width: 100%;
+    font-weight: 600;
+}
+
+.dark {
+    background-color: #FAFAFA;
+}
+
+.serviceimg img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50% !important;
+
+}
+
+.services {
+    color: #a19696;
+}
+
+.serviceone {
+    padding-bottom: 80px;
+}
+
+.intresting-facts {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../Images/Background/intrestingfacts.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+}
+
+.some {
+    color: #a19696;
+}
+
+.facts {
+    font-size: 50px;
+}
+
+.num {
+    font-size: 40px;
+}
+
+.intresting {
+    gap: 120px;
+}
+
+.law {
+    background-color: #B8B0B0;
+    font-size: 50px;
+    border-radius: 50%;
+}
+
+.provide {
+    color: #a19696;
+}
+
+.provideimg {
+    background-image: url(../Images/Background/providing.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+.hammer {
+    gap: 20px;
+}
+
+.aboutback {
+    background-image: url(../Images/Background/hero.png);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.abouticon i {
+    color: #a19696 !important;
+    ;
+}
+
+.case-study img {
+    height: 280px;
+}
+.usermessage{
+    width:100%;
+}
+.appointment input,select{
+    border:2px solid  #a19696;
+    padding:15px;
+    width:100%;
+    margin:10px 0 20px 0;
+}
+.appointbtn{
+    padding:10px;
+    width:100%;
+    margin:10px 0;
+    background-color: #a19696;
+    border:2px solid  #a19696;
+    color:white;
+}
+.foot{
+    background-color: black;
+}
+.foot i,a{
+    color:white;
+}
+.testpara{
+    width:600px;
+   margin:auto;
+}
+.testimonyimg{
+    width:130px !important;
+    height:130px !important;
+    border-radius: 50%;
+}
+@media(min-width:768px) {
+    h1 {
+        font-size: 70px;
+    }
+
+    .intresting-facts {
+        height: 320px;
+    }
+
+    .provideimg {
+        height: auto;
+    }
+
+    .aboutback {
+        height: auto;
+    }
+
+    .case-study img {
+        height: 230px;
+    }
+}
+
+@media(min-width:991px) {
+
+    .hero1,
+    .hero2 {
+        height: 763px;
+    }
+
+    .contact-hero {
+        margin-left: 100px !important;
+        ;
+    }
+
+    h1 {
+        font-size: 100px;
+        line-height: 120px;
+    }
+
+    .serviceone {
+        padding-left: 320px;
+        width: 1000px;
+    }
+
+    .intresting-facts {
+        height: 400px;
+    }
+
+    .intresting {
+        padding-top: 100px !important;
+    }
+
+    .case-study img {
+        height: 350px;
+    }
+    .casepara{
+        width:800px;
+        margin: auto !important;
+    }
+    .app input,select{
+        width:220px;
+    }
+}
